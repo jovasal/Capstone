@@ -246,17 +246,128 @@
   color: #fff;
 }
 
-.flex3 {
-  display: flex;
-  flex-direction: column;
-  background-color: yellow;
+/*  ----- Featured Speakers  -----  */
+
+.SectionSpeakers {
+  background-color: #fff;
+  padding: 2rem 0;
 }
 
-.flex321 {
+.ContainerSectionSpeakers {
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: blueviolet;
+  justify-content: center;
+  align-items: center;
 }
+
+.SectionSpeakT {
+  color: #000;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.8px;
+  margin-top: 30.5px;
+}
+
+.SpeakersCont {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 5rem;
+  column-gap: 5rem;
+  padding: 5rem 0;
+}
+
+.speakerInfo {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  height: 254px;
+  align-items: flex-end;
+}
+
+.SepeakerPicture {
+margin-top: 0;
+margin-left: 0;
+height: 120px;
+width: 120px;
+margin-right: 50px;
+}
+
+.speakerBackground {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.speakerImg {
+  position: relative;
+  top: -80px;
+  left: 30%;
+  width: 100%;
+  z-index: 1;
+}
+
+.SpeakerCurr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.SpeakerTitle {
+  font-size: 20px;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.SpeakerPosition {
+  font-size: 18px;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.SpeakerDescription {
+  font-size: 16px;
+  color: #565656;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.SeeMoreButon {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+.SeeMoreBtn {
+  padding: 1.4rem 2.8rem;
+  border: solid black 1px;
+  display: block;
+  text-align: center;
+  font-size: 2.4rem;
+  border-radius: 20px;
+}
+
+  .BtnR {
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 20px;
+    list-style: none;
+  }
 
 .flex4 {
   display: flex;
@@ -405,5 +516,18 @@
     row-gap: 1rem;
     justify-items: center;
     padding: 1rem;
+  }
+
+  /*  ----- Speakers Section ------  */
+
+  .ContainerSectionSpeakers {
+    width: 80%;
+  }
+
+  .SpeakersCont {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    gap 20px;
   }
 }
