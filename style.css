@@ -1,7 +1,7 @@
-/*------ fonts ------*/
+/*  ------ fonts ------  */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/*----- body -----*/
+/*  ----- body -----  */
 
 .bodyart {
   margin: 0 auto;
@@ -9,11 +9,11 @@
 }
 
 .header {
-    display: none;
+  display: none;
 }
 
 .section1 {
-    display: none;
+  display: none;
 }
 
 .main {
@@ -25,7 +25,7 @@
   margin: 0;
 }
 
-/*------ fist template -----*/
+/*  ------ fist template -----  */
 
 .firsttemplate {
   display: flex;
@@ -37,7 +37,7 @@
   width: auto;
 }
 
-/*------ hamburguer ------*/
+/*  ------ hamburguer ------  */
 
 ..navbar {
   margin: 1.5rem 2rem;
@@ -81,8 +81,7 @@
   cursor: pointer;
 }
 
-/*----- title -----*/
-
+/*  ----- title -----  */
 
 .info {
   display: flex;
@@ -164,19 +163,15 @@
   color: #565656;
   box-sizing: border-box;
   margin-left: 8.5px;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
-/*------- Main Program ------*/
+/*  ------- Main Program ------  */
 
 .MainProgram {
   display: flex;
   flex-direction: column;
   background-image: url(images/feature_background.jpg);
- /* background-position: 0 1px;*/
- /* background-size: contain;*/
- /* background-repeat: no-repeat;*/
- /* width: auto;*/
 }
 
 .MainProgramTitle {
@@ -200,9 +195,8 @@
 .RedLine {
   background-image: url(./images/title_underlineredline.png);
   margin-top: 15px;
-  width: 40PX;
+  width: 40px;
   height: 3px;
-
 }
 
 .ProgramContainer {
@@ -219,7 +213,7 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  margin: 0px 15px 0px 15px;
+  margin: 0 15px 0 15px;
   background-color: #9696962a;
 }
 
@@ -277,156 +271,139 @@
 }
 
 @media screen and (min-width: 768px) {
+  .main {
+    display: grid;
+    width: auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 0;
+    margin: 0;
+  }
 
-    .main {
-        display: grid;
-        width: auto;
-        grid-template-rows: auto auto auto auto;
-        padding: 0;
-        margin: 0;
-    }
+  .firsttemplate {
+    background-image: url(images/hero-bg-desktop.png);
+    margin: 150px 0 0 0;
+  }
 
-    .firsttemplate {
-        background-image: url(images/hero-bg-desktop.png);
-        margin: 150px 0 0 0;
-    }
+  .hamburguer {
+    display: none;
+  }
 
-    .hamburguer {
-        display: none;
-    }
+  .title1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
 
-    .title1 {
-        font-size: 1.8rem;
-        font-weight: 800;
-    }
+  .title2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+  }
 
-    .title2 {
-        font-size: 3.5rem;
-        font-weight: 800;
-    }
+  .resumetitle {
+    font-size: 1.6rem;
+    line-height: 1.7;
+  }
 
-    .resumetitle {
-        font-size: 1.6rem;
-        line-height: 1.7;
-    }
+  .dateTitle {
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
 
-    .dateTitle {
-        font-size: 2.8rem;
-        font-weight: 700;
-    }
+  .siteDir {
+    font-size: 1.8rem;
+  }
 
-    .siteDir {
-        font-size: 1.8rem;
-    }
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
 
-    .nav-list {
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-    }
+  .header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 0;
+    height: 30px;
+    width: auto;
+    justify-content: end;
+  }
 
-    .header {
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        margin-top: 0;
-        height: 30px;
-        width: auto;
-        justify-content: end; 
-    }
+  #header {
+    background-color: black;
+  }
 
-    #header {
-        background-color: black;
-    }   
+  .navbar {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+    align-items: stretch;
+  }
 
-    .navbar {
-        display: flex;
-        font-family: 'Lato', sans-serif;
-        font-size: 10px;
-        height: auto;
-        width: auto;
-        padding: 0 5px 0 5px;
-        margin: 0 5px 0 5px;
-        align-items: stretch;
-    }
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
 
-    .section1 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
+  .navbar1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
-    .navbar1 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+  .nav-list1 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    list-style: none;
+  }
 
-    .nav-list1 {
-        display: flex;
-        flex-direction: row;
-        align-items: start;
-        list-style: none;
-    }
+  .item-styles1 {
+    font-family: 'Lato', sans-serif;
+    color: #2b2b2b;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
 
-    .item-styles1 {
-        font-family: 'Lato', sans-serif;
-        color: #2b2b2b;
-        font-size: 1.8rem;
-        font-weight: 500;
+  .header-styles {
+    font-size: 15px;
+    color: #fff;
+    justify-content: space-around;
+    padding: auto;
+    margin: 0 5px 0 5px;
+  }
 
-    }
+  .header-container {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40%;
+    width: 40%;
+  }
 
-    /*.nav-list {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-end;
-        text-align: justify;
-        text-align: end;
-        list-style: none;
-        padding: 0 5px 0 5px;
-    }*/
+  .navblack {
+    background: white;
+  }
 
-    .header-styles {
-        font-size: 15px;
-        color: #fff;
-        justify-content: space-around;
-        padding: auto;
-        margin: 0 5px 0 5px;
-    }
+  /*  --- Main Program ----  */
 
-    .header-container {
-        margin-top: 10px;
-        margin-left: 10px;
-        height: 40%;
-        width: 40%;
-    }
+  .MainProgram {
+    width: 100%;
+  }
 
-    .navblack {
-      background: white;  
-    }
+  .ProgramContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 0.5rem;
+  }
 
-    /*----- Main Program ----*/
-
-    .MainProgram {
-      width: 100%;
-    }
-
-    .ProgramContainer {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      column-gap: 0.5rem;
-    }
-
-    .program {
-      grid-template-columns: 1fr;
-      row-gap: 1rem;
-      justify-items: center;
-      padding: 1rem;
-    }
-
+  .program {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    justify-items: center;
+    padding: 1rem;
+  }
 }
-
-
-
