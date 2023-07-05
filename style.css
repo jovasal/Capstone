@@ -37,7 +37,7 @@
 
 /*  ------ hamburguer ------  */
 
-..navbar {
+.navbar {
   margin: 1.5rem 2rem;
 }
 
@@ -45,30 +45,40 @@
   display: none;
 }
 
-.navbar.active .nav-list {
+.navbar2023 {
+  margin: 1.5rem 2rem;
+}
+
+.nav-list2023 {
+  display: none;
+}
+
+
+.navbar2023.active .nav-list2023 {
   display: flex;
   position: absolute;
   flex-direction: column;
   left: 0;
   top: 0;
-  background: rgba(96, 112, 255, 0.9);
+  background: url(./images/hero-bg-mobile.png);
   width: 100%;
   height: 100vh;
-  backdrop-filter: blur(5px);
+  /*backdrop-filter: blur(5px);*/
   padding: 8rem 2rem;
 }
 
-.nav-list.active,
-.item-styles {
+.nav-list2023.active,
+.item-styles2023 {
   display: block;
   margin: 2rem 0 0 0;
   text-align: justify;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   font-size: 3.2rem;
   line-height: 4.4rem;
   text-decoration: none;
   transition: background 0.3s ease-in-out;
+  list-style: none;
 }
 
 #hamburguer {
@@ -295,6 +305,26 @@ width: 200px;
 margin-right: 50px;
 }
 
+
+.speakerBackground1 {
+  position: relative;
+  top: 0;
+  left: -20;
+  width: 100%;
+  z-index: 1;
+  height: 38.95px;
+  width: 38.95px;
+}
+
+.speakerImg1 {
+  position: relative;
+  top: -30px;
+  left: 10%;
+  width: 200%;
+  z-index: 1;
+  width: 78px;
+  height: 52px;
+}
 .speakerBackground {
   position: relative;
   top: 0;

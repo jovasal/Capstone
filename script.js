@@ -1,18 +1,24 @@
-// Obtener una referencia al contenedor del menú
-const menuContainer = document.getElementById("menuItems");
+const menuHamburger = document.querySelector('.hamburguer');
+const navMobile = document.querySelector('.navbar2023');
+const navMobileLinks = document.querySelectorAll('.nav-list2023 a');
+const hamburgerImage = document.querySelector('#hamburguer');
 
-// Definir los elementos del menú
-const menuItems = [
-  { text: "About", link: "#" },
-  { text: "Speakers", link: "#" },
-  { text: "Agenda", link: "#" },
-  { text: "News", link: "#" },
-];
+function toggleMenu() {
+  if (navMobile.classList.contains('active')) {
+    hamburgerImage.src = './images/cancel.svg';
+  } else {
+    hamburgerImage.src = "./images/mobile_menu 1.png";
+  }
+}
 
-// Generar los elementos del menú dinámicamente
-menuItems.forEach((item) => {
-  const menuItem = document.createElement("a");
-  menuItem.href = item.link;
-  menuItem.textContent = item.text;
-  menuContainer.appendChild(menuItem);
+menuHamburger.addEventListener('click', () => {
+  navMobile.classList.toggle('active');
+  toggleMenu();
+});
+
+navMobileLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    navMobile.classList.remove('active');
+    toggleMenu();
+  });
 });
