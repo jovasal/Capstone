@@ -528,6 +528,6 @@ margin-right: 50px;
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto;
-    gap 20px;
+    gap: 20px;
   }
 }
