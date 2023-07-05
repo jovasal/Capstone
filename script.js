@@ -32,10 +32,10 @@ const seeMoreBtn = document.getElementById('seeMoreBtn');
 const speakerInfos = Array.from(document.getElementsByClassName('speakerInfo'));
 
 //  Delete all speakers
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < 6; i += 1) {
   speakersContainer.removeChild(speakersContainer.firstChild);
 }
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < 6; i += 1) {
   speakersContainer.removeChild(speakersContainer.firstChild);
 }
 

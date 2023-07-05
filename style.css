@@ -6,6 +6,7 @@
 .bodyart {
   margin: 0 auto;
   display: block;
+  height: 5000px;
 }
 
 .header {
@@ -397,6 +398,35 @@
   list-style: none;
 }
 
+.main1 {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-rows: auto auto auto auto;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  ------ fist template -----  */
+
+.firsttemplate1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/hero-bg-mobile.png);
+  background-repeat: no-repeat;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.Creative{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/hero-bg-mobile.png);
+}
+
 .flex4 {
   display: flex;
   flex-direction: column;
@@ -409,6 +439,126 @@
   background-color: greenyellow;
 }
 
+/* ------ info ------  */
+
+.title {
+  margin-top: 70px;
+  margin-left: 12px;
+}
+
+.title11 {
+  font-family: 'Lato', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 12px;
+  font-weight: 1000;
+  color: #b20808;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  opacity: 0.8;
+  margin-top: 1px;
+  align-items: start;
+  width: auto;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.info1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.squareInfo1 {
+  display: flex;
+  flex-direction: row;
+  border-color: #f8f8f8;
+  padding: 5px 5px 5px 5px;
+  border: solid white 2px;
+  margin: 50px 30px 0 30px;
+  background: #fff;
+  align-items: center;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.resumetitle1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: 2;
+  color: #565656;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dateTitle1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: #7a7a7a;
+  margin: 50px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.siteDir1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #7a7a7a;
+  margin: 10px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.SectionSpeakT1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin: 50px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dateTitle1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #7a7a7a;
+  margin: 50px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  justify-content: center;
+  align-items: center; 
+}
+
+.header-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.penul {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #7a7a7a;
+  margin: 50px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  justify-content: center;
+  align-items: center;  
+}
+
+
 @media screen and (min-width: 768px) {
   .main {
     display: grid;
@@ -419,6 +569,11 @@
   }
 
   .firsttemplate {
+    background-image: url(images/hero-bg-desktop.png);
+    margin: 150px 0 0 0;
+  }
+
+  .firsttemplate1 {
     background-image: url(images/hero-bg-desktop.png);
     margin: 150px 0 0 0;
   }
