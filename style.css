@@ -19,7 +19,7 @@
 .main {
   display: grid;
   width: auto;
-  height: 2500px;
+  height: auto;
   grid-template-rows: auto auto auto auto;
   padding: 0;
   margin: 0;
@@ -31,8 +31,6 @@
   display: flex;
   flex-direction: column;
   background-image: url(images/hero-bg-mobile.png);
-  background-position: 0 1px;
-  background-size: contain;
   background-repeat: no-repeat;
   width: auto;
 }
@@ -292,8 +290,8 @@
 .SepeakerPicture {
 margin-top: 0;
 margin-left: 0;
-height: 120px;
-width: 120px;
+height: 200px;
+width: 200px;
 margin-right: 50px;
 }
 
@@ -307,8 +305,8 @@ margin-right: 50px;
 
 .speakerImg {
   position: relative;
-  top: -80px;
-  left: 30%;
+  top: -20px;
+  left: 10%;
   width: 100%;
   z-index: 1;
 }
@@ -325,6 +323,8 @@ margin-right: 50px;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .SpeakerPosition {
@@ -333,6 +333,8 @@ margin-right: 50px;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .SpeakerDescription {
@@ -341,6 +343,8 @@ margin-right: 50px;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .SeeMoreButon {
