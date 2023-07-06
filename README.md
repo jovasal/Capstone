@@ -185,7 +185,7 @@ Feel free to check the [issues page](https://github.com/jovasal/Capstone.git/iss
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Thank you so much to Miroverse course and FIGMA
+> Original design idea by Cindy Shin: https://www.behance.net/adagio07
 
 [Microverse](https://www.microverse.org/es/inicio)
 
