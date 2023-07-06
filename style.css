@@ -24,6 +24,8 @@
   grid-template-rows: auto auto auto auto;
   padding: 0;
   margin: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 /*  ------ fist template -----  */
@@ -108,7 +110,7 @@
 
 .title1 {
   font-family: 'Lato', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 12px;
+  font-size: 28px;
   font-weight: 1000;
   color: #b20808;
   box-sizing: border-box;
@@ -121,16 +123,19 @@
   align-items: start;
   width: auto;
   padding-top: 0;
+  margin-left: 15px;
 }
 
 .title2 {
   font-family: 'Lato', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 1000;
   color: #b20808;
   box-sizing: border-box;
   opacity: 0.8;
   margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 30px;
   align-items: center;
   width: auto;
   padding-top: 0;
@@ -142,7 +147,7 @@
   border-color: rgb(250, 250, 250);
   padding: 5px 5px 5px 5px;
   border: solid white 2px;
-  margin: 0 65px 0 10px;
+  margin: 30px 15px 30px 15px;
   background: #f8f8f8;
   align-items: center;
   width: auto;
@@ -150,10 +155,10 @@
 
 .resumetitle {
   font-family: 'Lato', sans-serif;
-  font-size: 10px;
+  font-size: 20px;
   line-height: 1.2;
   color: #565656;
-  margin: 5px 5px 5px 5px;
+  margin: 10px 5px 30px 5px;
   padding: 5px 5px 5px 5px;
 }
 
@@ -161,12 +166,13 @@
   display: flex;
   flex-direction: row;
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   color: #565656;
   box-sizing: border-box;
-  margin-left: 8.5px;
+  margin-left: 15px;
   margin-top: 15px;
+  margin: 10px 5px 50px 5px;
 }
 
 .siteDir {
@@ -179,6 +185,7 @@
   box-sizing: border-box;
   margin-left: 8.5px;
   margin-top: 15px;
+  margin: 10px 5px 110px 5px;
 }
 
 /*  ------- Main Program ------  */
@@ -198,7 +205,7 @@
 
 .MainProgramT {
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -279,7 +286,7 @@
 
 .SectionSpeakT {
   color: #000;
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -479,7 +486,7 @@
   border-color: #f8f8f8;
   padding: 5px 5px 5px 5px;
   border: solid white 2px;
-  margin: 50px 30px 0 30px;
+  margin: 50px 30px 20px 30px;
   background: #fff;
   align-items: center;
   width: auto;
@@ -488,8 +495,8 @@
 
 .resumetitle1 {
   font-family: 'Lato', sans-serif;
-  font-size: 12px;
-  line-height: 2;
+  font-size: 20px;
+  line-height: 1.5;
   color: #565656;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -499,10 +506,10 @@
 
 .dateTitle1 {
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 900;
   color: #7a7a7a;
-  margin: 50px 5px 5px 5px;
+  margin: 50px 5px 70px 5px;
   padding: 5px 5px 5px 5px;
   justify-content: center;
   align-items: center;
@@ -510,10 +517,10 @@
 
 .siteDir1 {
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   color: #7a7a7a;
-  margin: 10px 5px 5px 5px;
+  margin: 10px 5px 100px 5px;
   padding: 5px 5px 5px 5px;
   justify-content: center;
   align-items: center;
@@ -521,7 +528,7 @@
 
 .SectionSpeakT1 {
   font-family: 'Lato', sans-serif;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   color: #2c2c2c;
   margin: 50px 5px 5px 5px;
@@ -543,10 +550,10 @@
 
 .dateTitle11 {
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   color: #7a7a7a;
-  margin: 50px 5px 5px 5px;
+  margin: 50px 5px 100px 5px;
   padding: 5px 5px 5px 5px;
   justify-content: center;
   align-items: center;
@@ -564,10 +571,18 @@
   font-size: 18px;
   font-weight: 700;
   color: #7a7a7a;
-  margin: 50px 5px 5px 5px;
+  margin: 50px 5px 100px 5px;
   padding: 5px 5px 5px 5px;
   justify-content: center;
   align-items: center;
+}
+
+.penul1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
 }
 
 .sponsor {
@@ -620,6 +635,15 @@
   grid-row: auto;
 }
 
+.ContainerSectionAbout {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/hero-bg-mobile.png);
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
   .main {
     display: grid;
@@ -627,11 +651,13 @@
     grid-template-rows: auto auto auto auto;
     padding: 0;
     margin: 0;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .firsttemplate {
     background-image: url(images/hero-bg-desktop.png);
-    margin: 150px 0 0 0;
+    margin: 0 0 0 0;
   }
 
   .firsttemplate1 {
@@ -644,17 +670,24 @@
   }
 
   .title1 {
-    font-size: 1.8rem;
+    margin-top: 150px;
+    font-size: 40px;
     font-weight: 800;
   }
 
   .title2 {
-    font-size: 3.5rem;
+    margin-top: 150px;
+    font-size: 200px;
     font-weight: 800;
   }
 
+  .squareInfo {
+    width: 780px;
+    height: 151px;
+  }
+
   .resumetitle {
-    font-size: 1.6rem;
+    font-size: 30px;
     line-height: 1.7;
   }
 
@@ -664,7 +697,7 @@
   }
 
   .siteDir {
-    font-size: 1.8rem;
+    font-size: 30px;
   }
 
   .nav-list {
@@ -790,4 +823,16 @@
     grid-template-columns: auto auto;
     gap: 20px;
   }
+
+  .penul1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+
+  .ContainerSectionAbout {
+    background-image: url(images/hero-bg-desktop.png);
+    margin: 0 0 0 0;
 }
