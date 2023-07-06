@@ -33,7 +33,9 @@
 
 > This project contains all technical details knowledges required for Microverse process student
 
- This project you can see in: https://jovasal.github.io/Capstone/ 
+ This project you can see in: https://jovasal.github.io/Capstone/
+
+ Video presentation: https://www.loom.com/share/72f90057f36c4c5da4c6324e406a63ad 
 
 **[Portfolio Accessibility]** is the first capstone project under knowledge learned in the Microverse process.
 
