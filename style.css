@@ -6,7 +6,7 @@
 .bodyart {
   margin: 0 auto;
   display: block;
-  height: 5000px;
+  height: auto;
 }
 
 .header {
@@ -64,6 +64,7 @@
   width: 100%;
   height: 100vh;
   padding: 8rem 2rem;
+  list-style: none;
 }
 
 .nav-list2023.active,
@@ -81,8 +82,10 @@
 }
 
 #hamburguer {
-  margin-top: 40px;
-  margin-left: 40px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -93,6 +96,9 @@
 .info {
   display: flex;
   flex-direction: column;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: transparent;
 }
 
 .title {
@@ -114,6 +120,7 @@
   margin-top: 1px;
   align-items: start;
   width: auto;
+  padding-top: 0;
 }
 
 .title2 {
@@ -126,6 +133,7 @@
   margin-top: 10px;
   align-items: center;
   width: auto;
+  padding-top: 0;
 }
 
 .squareInfo {
@@ -554,10 +562,10 @@
 .sponsor {
   display: flex;
   flex-direction: column;
-  background-color: #525151;
+  background-color: #272a31;
   background-repeat: no-repeat;
-  width: auto; 
-  height: 150px;
+  width: auto;
+  height: 200px;
 }
 
 .SponsorCompanies {
@@ -569,6 +577,7 @@
 
 .sponsortitle {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -586,7 +595,7 @@
 
 .RedLine1 {
   background-image: url(./images/title_underlineredline.png);
-  margin-top: 30px;
+  margin-top: 10px;
   width: 70px;
   height: 3px;
   justify-content: center;
@@ -594,9 +603,10 @@
 }
 
 .sponsorgrid {
+  margin-top: 50px;
   display: grid;
   width: auto;
-  grid-row: auto auto auto auto auto;
+  grid-row: auto;
 }
 
 @media screen and (min-width: 768px) {

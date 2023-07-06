@@ -7,7 +7,7 @@ const hamburgerImage = document.querySelector('#hamburguer');
 
 function toggleMenu() {
   if (navMobile.classList.contains('active')) {
-    hamburgerImage.src = './images/cancel.svg';
+    hamburgerImage.src = './images/equis.png'
   } else {
     hamburgerImage.src = './images/mobile_menu 1.png';
   }

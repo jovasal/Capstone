@@ -1,17 +1,11 @@
 <a name="readme-top"></a>
 
 
-
 <div align="center">
   
-  <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>PERSONAL PORTFOLIO PROJECT</b></h3>
+  <h3><b>Complete Portafolio John Vasquez</b></h3>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -19,10 +13,9 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -32,254 +25,172 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [PERSONAL PORTFOLIO PROJECT] <a name="about-project"></a>
+# 📖 [Portfolio Accessibility] <a name="about-project"></a>
 
-  **[Personal Portfolio Project]** This is a personal portfolio project where I have implemented the main features of the project using images and backgrounds from Figma template, I have used  the  main concepts of flexbox layout to design a flexbox responsive layout structure acording to the methodology 'Mobil first'. I have applied the best html, css and javascript code practices. 
+> This project contains all technical details knowledges required for Microverse process student
 
-## 🛠 Built With <a name="built-with"></a>
-<p> This project was built using:
-    HTML, CSS and JAVASCRIPT
-</p>
+ This project you can see in: https://jovasal.github.io/Capstone/ 
 
-### Tech Stack <a name="tech-stack"></a>
+**[Portfolio Accessibility]** is the first capstone project under knowledge learned in the Microverse process.
 
-<li> HTML </li>
-<li> CSS </li>
-<li> Javascript </li>
-<li> Git </li>
+## 🛠 Built With <a name="built-with">John Alonso Vasquez Salcedo made this project under HTML and CSS</a>
 
+### Tech Stack <a name="tech-stack">HTML & CSS</a>
 
+> This project were made with HTML, CSS and JavaScript.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://html.com/">html</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Styles</summary>
+  <summary>Server</summary>
   <ul>
-    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+    <li><a href="https://desarrolloweb.com/home/css">css</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Language</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">CSS</a></li>
-  </ul>
-</details>
+### Key Features <a name="key-features">Responcive project with version mobile and desktop</a>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://github.com/">GIT</a></li>
-  </ul>
-</details>
+> Describe between 1-3 key features of the application.
 
-<!-- Features -->
+- **Responsive Version**
+- **Grid Containers**
+- **Flex box**
+- **Grid**
+- **UI adaptable**
+- **JavaScript**
+- **DOM**
 
-### Key Features <a name="key-features"></a>
-
-- **[HTML & CSS Best practices]**
-- **[Header Section]**
-- **[Works Section]**
-- **[About Section]**
-- **[Headline Section ]**
-- **[Contact Form Section]**
-- **[Flexbox and Grid to  Design flexible responsive layout structure]**
-- **[Mobil First Design ]**
-- **[Deskto Version Design ]**
-- **[Mobile Menu ]**
-- **[Popup Window ]**
-- **[Validation Email ]**
-- **[Follow GitHub Flow]**
-- **[Use Linters]**
-- **[GitHub Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-### 🚀 Live Demo <a name="live-demo" ></a>
-
-> 
-
-- [Live Demo Link](https://alyconr.github.io/Personal-Portfolio-Project/)
-
-![](https://i.imgur.com/nppe0wH.gif)
-
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
+> You can use this project as a reference for future students.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-To run this project  you need the following tools:
-- [VS Code ]
-- [Git and GitHub ]
-- [GitHub Pages]
-- [Nodejs ]
 
+In order to run this project you need:
 
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
 Clone this repository to your desired folder:
-```sh
- cd Personal-Portfolio-Project
- git clone https://github.com/alyconr/Personal-Portfolio-Project
-```
 
-
-### Setup
-
-
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/Personal-Portfolio-Project.git
-```
-
+Yoy can use this repository ising the following steps:
+           
+           1. Clone a repository from www.github.com You can use the follonig link directly to the repository:
+           https://github.com/jovasal/Capstone.git
+           
+           2.Clone this repository to your desired folder:
+           
+           Example commands:
+           ```sh
+           cd my-folder
+           git clone https://github.com/jovasal/Capstone.git
+           ```
+           
+           If you prefer to download without commands, tin the link, 
+           you can press <> Code button, choose Local and then Download.zip. 
+           Remember to extrat in your faverite part of your computer.
+           
+           Finaly, you can use as a reference for your future codes.
 
 ### Install
 
-Install this project with:
-
-Lighthouse run
-```sh
-    npm install -g @lhci/cli@0.7.x
-```
-Webhint:
-```sh
-     npm install --save-dev hint@7.x
-```
-Stylelint:
-```sh
-     npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-```
-
-Eslint
-```sh
-     npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-```
-
-
+Is not necesary to install, but you need any sofware that you can use HTML and CSS
 
 ### Usage
 
-To run the project, execute the following command:
-
-
+ 1. Clone a repository from www.github.com You can use the follonig link directly to the repository:
+           https://github.com/jovasal/Capstone.git
+           
+           2.Clone this repository to your desired folder:
+           
+           Example commands:
+           ```sh
+           cd my-folder
+           git clone https://github.com/jovasal/Capstone.git
+           ```
 
 ### Run tests
 
-To run tests, run the following command:
-
-
-To test the Stylelint linter:
-```sh
-    npx stylelint "**/*.{css,scss}"
-```
-To test the Webhint:
-```sh
-    npx hint .
-```
-To test the ESLint linter:
-```sh
-    npx eslint .
-```
-
+Test is in the following repository: https://github.com/jovasal/Capstone.git
 
 ### Deployment
 
-You can deploy this project using your local enviroment.
 
+All deployment is in: https://github.com/jovasal/Capstone.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+## 👥 Authors <a name="authors">John Alonso Vasquez Salcedo</a>
 
-## 👥 Authors <a name="authors"></a>
+John Alonso Vasquez Salcedo
 
-JEYSSON CONTRERAS
+> Thank you so mucho to Microverse and FIGMA
 
 👤 **Author1**
 
-- GitHub: [@alyconr](https://github.com/alyconr)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeysson-aly-contreras/)
-
-
+- GitHub: [@githubhandle](https://github.com/jovasal/)
+- Twitter: [@twitterhandle](https://twitter.com/jovasal)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-alonso-vasquez-salcedo-95749632/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Toolbar]**
-- [ ] **[Headline]**
-- [ ] **[About-section]**
-- [ ] **[Contact-form]**
-- [ ] **[Mobile first]**
-- [ ] **[Desktop version]**
-- [ ] [ ] **[Mobile Menu]**
-
+- [ ] **[JAVASCRIPT]**
+- [ ] **[CSS]**
+- [ ] **[HTML]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/alyconr/Personal-Portfolio-Project/issues).
+Feel free to check the [issues page](https://github.com/jovasal/Capstone.git/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project please give  one start.
+> If you like this project kindly show some love, give it a 🌟 **STAR** 🌟
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> Thank you so much to Miroverse course and FIGMA
 
-I would like to thank  my learning teammates and the Microsoft staff  to support me all the time.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-
+[Microverse](https://www.microverse.org/es/inicio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE.md) licensed.
-
-
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
