@@ -74,7 +74,7 @@ const speakersData = [
 
 const speakersContainer = document.getElementById('speakersContainer');
 const seeMoreBtn = document.getElementById('seeMoreBtn');
-const showMoreSpeakersCount = 2; 
+const showMoreSpeakersCount = 2;
 
 function createSpeakerElement(speaker) {
   const speakerInfo = document.createElement('div');
@@ -122,7 +122,7 @@ function createSpeakerElement(speaker) {
 }
 function showSpeakers(startIndex, endIndex) {
   speakersContainer.innerHTML = '';
-  for (let i = startIndex; i < endIndex; i++) {
+  for (let i = startIndex; i < endIndex; i += 1) {
     const speaker = speakersData[i];
     const speakerElement = createSpeakerElement(speaker);
     speakersContainer.appendChild(speakerElement);
