@@ -421,7 +421,7 @@
   justify-content: center;
 }
 
-.Creative{
+.Creative {
   display: flex;
   flex-direction: column;
   background-image: url(./images/hero-bg-mobile.png);
@@ -441,11 +441,6 @@
 
 /* ------ info ------  */
 
-.title {
-  margin-top: 70px;
-  margin-left: 12px;
-}
-
 .title11 {
   font-family: 'Lato', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 12px;
@@ -457,7 +452,6 @@
   list-style: none;
   scroll-behavior: smooth;
   opacity: 0.8;
-  margin-top: 1px;
   align-items: start;
   width: auto;
   justify-content: center;
@@ -481,7 +475,6 @@
   background: #fff;
   align-items: center;
   width: auto;
-  align-items: center;
   justify-content: center;
 }
 
@@ -529,7 +522,7 @@
   align-items: center;
 }
 
-.dateTitle1 {
+.dateTitle11 {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -537,7 +530,7 @@
   margin: 50px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .header-container1 {
@@ -555,9 +548,56 @@
   margin: 50px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
+.sponsor {
+  display: flex;
+  flex-direction: column;
+  background-color: #525151;
+  background-repeat: no-repeat;
+  width: auto; 
+  height: 150px;
+}
+
+.SponsorCompanies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsortitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsortitle1 {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  justify-content: center;
+  align-items: center;
+}
+
+.RedLine1 {
+  background-image: url(./images/title_underlineredline.png);
+  margin-top: 30px;
+  width: 70px;
+  height: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsorgrid {
+  display: grid;
+  width: auto;
+  grid-row: auto auto auto auto auto;
+}
 
 @media screen and (min-width: 768px) {
   .main {
