@@ -656,9 +656,9 @@
 }
 
 .sponsorgrid {
-  display: flex;
-  margin-top: 50px;
   display: grid;
+  grid-template-rows: auto;
+  margin-top: 50px;
   width: auto;
   grid-row: auto;
   white-space: nowrap;
