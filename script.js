@@ -68,13 +68,15 @@ const speakersData = [
     speakerImg: './images/pexels-christina-morillo-1181690.jpg',
     name: 'Christina Morillo',
     position: 'Finances',
-    description: 'Introducing Christina, a dynamic professional specializing in business deployment within the realm of e-commerce. With a strategic mindset and meticulous planning, Christina drives successful implementation of business strategies in the digital marketplace.',
+    description: 'Introducing Christina, a dynamic professional specializing in business deployment within the realm of e-commerce. With a strategic mindset and meticulous planning, She drives implementation of business strategies in marketplace.',
   },
 ];
 
 const speakersContainer = document.getElementById('speakersContainer');
 const seeMoreBtn = document.getElementById('seeMoreBtn');
 const showMoreSpeakersCount = 2;
+
+
 
 function createSpeakerElement(speaker) {
   const speakerInfo = document.createElement('div');
@@ -137,3 +139,18 @@ function handleSeeMoreClick() {
 }
 seeMoreBtn.addEventListener('click', handleSeeMoreClick);
 showSpeakers(0, showMoreSpeakersCount);
+
+function checkScreenWidth() {
+  const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+  if (screenWidth >= 768) {
+    seeMoreBtn.style.display = 'none'; // delete "See More"
+    showAllSpeakers(); // Mostrar todos los oradores
+  }
+}
+
+showSpeakers(0, showMoreSpeakersCount);
+
+checkScreenWidth();
+
+window.addEventListener('resize', checkScreenWidth);

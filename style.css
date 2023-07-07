@@ -98,7 +98,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 0;
+  padding: 0 0 0 100px;
   margin: 0 0 0 0;
   color: transparent;
 }
@@ -116,7 +116,7 @@
   background-position: center;
   background-size: cover;
   line-height: 1;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
 }
 
@@ -132,13 +132,23 @@
   font-weight: 900;
 }
 
+.title21 {
+  font-family: 'lato', sans-serif;
+  background-position: center;
+  background-size: cover;
+  color: #ec5242;
+  line-height: 1;
+  font-size: 64px;
+  font-weight: 900;
+}
+
 .squareInfo {
   display: flex;
   flex-direction: row;
   border-color: rgb(250, 250, 250);
   padding: 5px 5px 5px 5px;
   border: solid white 5px;
-  margin: 30px 15px 20px 15px;
+  margin: 30px 15px 5px 15px;
   background: #f8f8f8;
   align-items: center;
   width: auto;
@@ -161,7 +171,7 @@
   font-weight: 700;
   color: #565656;
   box-sizing: border-box;
-  margin: 10px 5px 20px 5px;
+  margin: 5px 5px 5px 5px;
 }
 
 .siteDir {
@@ -172,7 +182,7 @@
   font-weight: 700;
   color: #565656;
   box-sizing: border-box;
-  margin: 10px 5px 50px 5px;
+  margin: 5px 5px 200px 5px;
 }
 
 /*  ------- Main Program ------  */
@@ -269,10 +279,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #d3d3d3;
 }
 
 .SectionSpeakT {
-  color: #000;
+  color: #272a31;
   font-size: 30px;
   font-family: 'Lato', sans-serif;
   font-style: normal;
@@ -285,8 +296,8 @@
 .SpeakersCont {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 5rem;
-  column-gap: 5rem;
+  row-gap: 100px;
+  column-gap: 254px;
   padding: 5rem 0;
 }
 
@@ -299,11 +310,14 @@
 }
 
 .SepeakerPicture {
+  display: flex;
   margin-top: 0;
   margin-left: 0;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   margin-right: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .speakerBackground1 {
@@ -325,15 +339,15 @@
 
 .speakerBackground {
   position: relative;
-  top: 0;
   width: 100%;
+  left: 35px;
+  top: -20px;
+  margin-left: 50px;
   z-index: 1;
 }
 
 .speakerImg {
   position: relative;
-  top: -30px;
-  left: 10%;
   width: 200%;
   z-index: 1;
 }
@@ -342,6 +356,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-left: 100px;
 }
 
 .SpeakerTitle {
@@ -641,10 +656,12 @@
 }
 
 .sponsorgrid {
+  display: flex;
   margin-top: 50px;
   display: grid;
   width: auto;
   grid-row: auto;
+  white-space: nowrap;
 }
 
 .ContainerSectionAbout {
@@ -654,6 +671,14 @@
   width: auto;
   align-items: center;
   justify-content: center;
+}
+
+.pict1 {
+  padding: 20px 0 20px 0;
+}
+
+.pict2 {
+  padding: 20px 0 20px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -682,14 +707,14 @@
   }
 
   .title1 {
-    margin-top: 150px;
+    margin-top: 200px;
     font-size: 40px;
     font-weight: 800;
   }
 
   .title2 {
-    margin-top: 150px;
-    font-size: 200px;
+    margin-top: 10px;
+    font-size: 70px;
     font-weight: 800;
   }
 
@@ -838,15 +863,23 @@
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto;
-    gap: 20px;
+    gap: 100px;
   }
 
   .penul1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 50px;
+  }
+
+  .pict1 {
+    padding: 0 20px 0 20px;
+  }
+
+  .pict2 {
+    padding: 0 20px 0 20px;
   }
 
   .ContainerSectionAbout {
