@@ -76,8 +76,6 @@ const speakersContainer = document.getElementById('speakersContainer');
 const seeMoreBtn = document.getElementById('seeMoreBtn');
 const showMoreSpeakersCount = 2;
 
-
-
 function createSpeakerElement(speaker) {
   const speakerInfo = document.createElement('div');
   speakerInfo.classList.add('speakerInfo');
@@ -141,7 +139,9 @@ seeMoreBtn.addEventListener('click', handleSeeMoreClick);
 showSpeakers(0, showMoreSpeakersCount);
 
 function checkScreenWidth() {
-  const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  const screenWidth = window.innerWidth
+  || document.documentElement.clientWidth
+  || document.body.clientWidth;
 
   if (screenWidth >= 768) {
     seeMoreBtn.style.display = 'none'; // delete "See More"
