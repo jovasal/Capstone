@@ -109,36 +109,27 @@
 }
 
 .title1 {
-  font-family: 'Lato', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 28px;
-  font-weight: 1000;
-  color: #b20808;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: none;
-  list-style: none;
-  scroll-behavior: smooth;
-  opacity: 0.8;
-  margin-top: 1px;
-  align-items: start;
-  width: auto;
-  padding-top: 0;
-  margin-left: 15px;
+  background-image: url('images/orange.jpg');
+  -webkit-background-clip: text; /* For Safari/WebKit browsers */
+  color: transparent;
+  font-family: 'lato', sans-serif;
+  background-position: center;
+  background-size: cover;
+  line-height: 1;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .title2 {
-  font-family: 'Lato', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 50px;
-  font-weight: 1000;
-  color: #b20808;
-  box-sizing: border-box;
-  opacity: 0.8;
-  margin-top: 10px;
-  margin-left: 15px;
-  margin-bottom: 30px;
-  align-items: center;
-  width: auto;
-  padding-top: 0;
+  background-image: url('images/orange.jpg');
+  -webkit-background-clip: text; /* For Safari/WebKit browsers */
+  color: transparent;
+  font-family: 'lato', sans-serif;
+  background-position: center;
+  background-size: cover;
+  line-height: 1;
+  font-size: 64px;
+  font-weight: 900;
 }
 
 .squareInfo {
@@ -146,8 +137,8 @@
   flex-direction: row;
   border-color: rgb(250, 250, 250);
   padding: 5px 5px 5px 5px;
-  border: solid white 2px;
-  margin: 30px 15px 30px 15px;
+  border: solid white 5px;
+  margin: 30px 15px 20px 15px;
   background: #f8f8f8;
   align-items: center;
   width: auto;
@@ -158,7 +149,7 @@
   font-size: 20px;
   line-height: 1.2;
   color: #565656;
-  margin: 10px 5px 30px 5px;
+  margin: 10px 5px 20px 5px;
   padding: 5px 5px 5px 5px;
 }
 
@@ -170,7 +161,7 @@
   font-weight: 700;
   color: #565656;
   box-sizing: border-box;
-  margin: 10px 5px 50px 5px;
+  margin: 10px 5px 20px 5px;
 }
 
 .siteDir {
@@ -181,7 +172,7 @@
   font-weight: 700;
   color: #565656;
   box-sizing: border-box;
-  margin: 10px 5px 110px 5px;
+  margin: 10px 5px 50px 5px;
 }
 
 /*  ------- Main Program ------  */
@@ -395,16 +386,15 @@
 
 .SeeMoreBtn {
   padding: 1.4rem 2.8rem;
-  border: solid black 1px;
+  border: solid #ec5242 10px;
   display: block;
   text-align: center;
   font-size: 2.4rem;
-  border-radius: 20px;
 }
 
 .BtnR {
   font-family: 'Lato', sans-serif;
-  color: #000;
+  color: #ec5242;
   font-size: 20px;
   list-style: none;
 }
@@ -831,5 +821,9 @@
   .ContainerSectionAbout {
     background-image: url(images/hero-bg-desktop.png);
     margin: 0 0 0 0;
+  }
+
+  .squareInfo1 {
+    margin: 50px 30px 150px 30px;
   }
 }
