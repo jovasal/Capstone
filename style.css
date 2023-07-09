@@ -1,4 +1,4 @@
-/*  ------ fonts ------  */
+/*  ------ dfonts ------  */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /*  ----- body -----  */
@@ -106,7 +106,7 @@
 
 .title {
   margin-top: 70px;
-  margin-left: 12px;
+  margin-left: 55px;
 }
 
 .title1 {
@@ -131,6 +131,7 @@
   line-height: 1;
   font-size: 64px;
   font-weight: 900;
+  justify-content: center;
 }
 
 .title21 {
@@ -141,6 +142,7 @@
   line-height: 1;
   font-size: 64px;
   font-weight: 900;
+  justify-content: center;
 }
 
 .squareInfo {
@@ -149,7 +151,7 @@
   border-color: rgb(250, 250, 250);
   padding: 5px 5px 5px 5px;
   border: solid white 5px;
-  margin: 15px 15px 5px 15px;
+  margin: 15px 15px 5px 55px;
   background: #f8f8f8;
   align-items: center;
   width: auto;
@@ -172,7 +174,7 @@
   font-weight: 700;
   color: #565656;
   box-sizing: border-box;
-  margin: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 55px;
 }
 
 .siteDir {
@@ -183,7 +185,7 @@
   font-weight: 700;
   color: #565656;
   box-sizing: border-box;
-  margin: 5px 5px 200px 5px;
+  margin: 5px 5px 200px 55px;
 }
 
 /*  ------- Main Program ------  */
@@ -199,6 +201,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 .MainProgramT {
@@ -210,6 +214,8 @@
   line-height: 28px;
   letter-spacing: -0.8px;
   margin-top: 30.5px;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 .RedLine {
@@ -224,6 +230,8 @@
   padding: 6rem 0;
   grid-template-columns: 1fr;
   row-gap: 1rem;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 .program {
@@ -270,12 +278,10 @@
 
 .SectionSpeakers {
   background-color: #f8f8f8;
-  padding: 2rem 0;
 }
 
 .ContainerSectionSpeakers {
   width: 90%;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -298,7 +304,7 @@
   grid-template-columns: 1fr;
   row-gap: 100px;
   column-gap: 254px;
-  padding: 5rem 0;
+  padding: 5rem 150px;
 }
 
 .speakerInfo {
@@ -313,8 +319,8 @@
   display: flex;
   margin-top: 0;
   margin-left: 0;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   margin-right: 50px;
   align-items: center;
   justify-content: center;
@@ -348,7 +354,7 @@
 
 .speakerImg {
   position: relative;
-  width: 200%;
+  width: 100%;
   z-index: 1;
 }
 
@@ -356,7 +362,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 100px;
+  margin-left: 50px;
   text-align: justify;
 }
 
@@ -599,6 +605,7 @@
   padding: 5px 5px 5px 5px;
   justify-content: center;
   align-items: center;
+  text-justify: auto;
 }
 
 .dateTitle11 {
@@ -607,9 +614,10 @@
   font-weight: 700;
   color: #7a7a7a;
   margin: 50px 5px 100px 5px;
-  padding: 5px 5px 5px 5px;
-  justify-content: center;
+  padding: 5px 150px 5px 150px;
   align-items: center;
+  justify-content: stretch;
+  text-align: justify;
 }
 
 .header-container1 {
@@ -684,7 +692,6 @@
 .sponsorgrid {
   display: grid;
   grid-template-rows: auto;
-  margin-top: 50px;
   width: auto;
   grid-row: auto;
   white-space: nowrap;
@@ -710,13 +717,29 @@
 .nav-list1 {
   display: flex;
   flex-direction: row;
-  align-items: start;
+  align-items: center;
   list-style: none;
   float: right;
-  padding: 0;
   flex-wrap: wrap;
   flex-basis: 100%;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#anaxtasia {
+  width: 80%;
+  height: 80%;
+}
+
+#anaxtasia2 {
+  width: 100%;
+  height: 100%;
+}
+
+#anaxtasia3 {
+  width: 100%;
+  height: 100%;
 }
 
 .footer {
@@ -726,6 +749,17 @@
   background-repeat: no-repeat;
   width: auto;
   height: 200px;
+  justify-content: center;
+}
+
+.footera {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 200px;
+  justify-content: center;
 }
 
 .footertitle {
@@ -759,6 +793,32 @@
     margin: 0;
     margin-top: 0;
     padding-top: 0;
+  }
+
+  #anaxtasia {
+    width: 180%;
+    height: 180%;
+  }
+
+  #anaxtasia2 {
+    width: 80%;
+    height: 80%;
+  }
+
+  #anaxtasia3 {
+    width: 150%;
+    height: 150%;
+  }
+
+  .speakerInfo {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+
+  .SpeakerCurr {
+    height: auto;
+    width: auto;
   }
 
   .firsttemplate {
@@ -812,6 +872,7 @@
     height: auto;
     width: auto;
     align-items: center;
+    list-style: none;
   }
 
   .header {
@@ -866,7 +927,19 @@
   .nav-list1 {
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
+    list-style: none;
+    float: right;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center;
+  }
+
+  .nav-list1a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     list-style: none;
     float: right;
     padding: 0;
@@ -878,10 +951,9 @@
   .item-styles1 {
     font-family: 'Lato', sans-serif;
     color: #272a31;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
-    margin: 0 10px 0 10px;
-    padding: 0 20px 0 20px;
+    padding: 0 24px 0 24px;
     text-decoration: none;
     text-align: center;
   }
@@ -937,15 +1009,12 @@
 
   /*  ----- Speakers Section ------  */
 
-  .ContainerSectionSpeakers {
-    width: 80%;
-  }
-
   .SpeakersCont {
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto;
-    gap: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
 
   .penul1 {
@@ -957,11 +1026,11 @@
   }
 
   .pict1 {
-    padding: 0 20px 0 20px;
+    padding: 0 100px 0 100px;
   }
 
   .pict2 {
-    padding: 0 20px 0 20px;
+    padding: 0 100px 0 100px;
   }
 
   .ContainerSectionAbout {
@@ -970,11 +1039,19 @@
   }
 
   .squareInfo1 {
-    margin: 50px 30px 150px 30px;
+    margin: 50px 150px 150px 150px;
   }
 
   .footer {
     background-color: #272a31;
+  }
+
+  .footer1 {
+    background-color: #272a31;
+  }
+
+  .footera {
+    background-color: #d3d3d3;
   }
 
   .footertitle {
@@ -984,8 +1061,23 @@
     line-height: 20px;
   }
 
+  .footertitlea {
+    color: #272a31;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    align-items: center;
+  }
+
   .footertitle1 {
     color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+  }
+
+  .footertitle1a {
+    color: #272a31;
     font-size: 16px;
     font-weight: 700;
     line-height: 16px;
